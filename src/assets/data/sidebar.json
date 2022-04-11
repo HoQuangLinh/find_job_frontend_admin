@@ -1,0 +1,39 @@
+[
+  {
+    "display_name": "Trang chủ",
+    "route": "/",
+    "icon": "bx bx-home",
+    "permissionUser": [0, 1, 2]
+  },
+  {
+    "display_name": "Người tìm việc",
+    "route": "/candidate",
+    "icon": "bx bx-store-alt",
+    "permissionUser": [0, 1]
+  },
+  {
+    "display_name": "Nhà tuyển dụng",
+    "route": "/employer",
+    "icon": "bx bx-user-pin",
+    "permissionUser": [0, 1, 2]
+  },
+  {
+    "display_name": "Thống kê",
+    "route": "/statistic",
+    "icon": "bx bx-package",
+    "permissionUser": [0, 2]
+  },
+  {
+    "display_name": "Ngành nghề",
+    "route": "/staffs",
+    "icon": "bx bx-user-circle",
+    "permissionUser": [0]
+  },
+
+  {
+    "display_name": "Doanh thu",
+    "route": "/revenues",
+    "icon": "bx bx-gift",
+    "permissionUser": [0]
+  }
+]
