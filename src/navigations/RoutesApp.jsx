@@ -5,7 +5,7 @@ import Layout from "../layout/Layout";
 const RoutesApp = () => {
   return (
     <Switch>
-      <Route>
+      <Route path="/">
         <Layout />
       </Route>
     </Switch>

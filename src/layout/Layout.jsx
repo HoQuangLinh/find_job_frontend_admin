@@ -6,8 +6,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import RoutesLayout from "../navigations/RoutesLayout";
 
 const Layout = () => {
-  const [rerender, setRerender] = useState(false);
-  const [currentTabIndex, setCurrentTabIndex] = useState(0);
   return (
     <Router>
       <Sidebar />

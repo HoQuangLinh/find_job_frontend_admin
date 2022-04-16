@@ -9,7 +9,7 @@ const RoutesLayout = () => {
       <Route path="/candidate">
         <Candidate />
       </Route>
-      <Route path="/">
+      <Route exact path="/">
         <Dashboard />
       </Route>
     </Switch>
