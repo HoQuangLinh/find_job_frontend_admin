@@ -1,54 +1,50 @@
-.customers_navbar_container {
+.order-container {
+  margin-top: -45px;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-top: 25px;
+}
+.order-table-container {
   margin-top: 20px;
-  margin-left: 150px;
+}
+.order-card {
   margin-bottom: 20px;
-  justify-content: space-between;
+  padding: 25px 20px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 15%);
+  border-radius: 8px;
+  background-color: #fff;
+  animation: fade-in-ani 1s;
+  margin-bottom: 25px;
 }
-.list-action-customers-btn {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+.order-card:hover {
+  box-shadow: 0 3px 15px rgb(0 102 110 / 25%);
 }
-.action-customers-btn {
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  color: #fff;
-  background-color: #4cb050;
+.order-card:last-child {
+  margin-bottom: 0;
 }
-.action-customers-btn:first-child {
-  margin-right: 10px;
+
+.order-card-heading {
+  font-size: 17px;
+  margin-bottom: 4px;
 }
-.candidate-header {
-  margin-top: 10px;
-}
-#candidates {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
+
+.order-card-input {
+  font-size: 15px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #bfbfbf;
   width: 100%;
 }
-
-#candidates td,
-#candidates th {
-  border: 1px solid #ddd;
-  padding: 8px;
+.order-card-date-picker {
+  border-bottom: 1px solid #bfbfbf;
+  padding: 0px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
-#candidates tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-#candidates tr:hover {
-  background-color: #ddd;
-}
-
-#candidates th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04aa6d;
-  color: white;
+.order-card-item > span {
+  font-size: 15px;
 }

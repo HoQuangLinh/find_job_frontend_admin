@@ -1,8 +1,19 @@
 import { useState } from "react";
 import "./Combobox.css";
-function Combobox({ options, categoryActive, setCategoryActive }) {
+function Combobox() {
   const [isActive, setIsActive] = useState(false);
-
+  const [categoryActive, setCategoryActive] = useState("Tất cả");
+  const options = [
+    {
+      name: "Tuần này",
+    },
+    {
+      name: "Tháng này",
+    },
+    {
+      name: "Năm này",
+    },
+  ];
   return (
     <div className="dropdown">
       <div className="dropdown-btn" onClick={(e) => setIsActive(!isActive)}>

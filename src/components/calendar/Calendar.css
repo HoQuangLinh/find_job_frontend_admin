@@ -1,0 +1,27 @@
+.days_of_week {
+  display: flex;
+  justify-content: space-between;
+}
+.day_object {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.day_object_item {
+  padding: 10px;
+}
+.day_object_item.active {
+  color: #109cf1;
+  font-weight: bold;
+}
+.calendar_circle {
+  height: 35px;
+  width: 35px;
+  background-color: #109cf1;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+}

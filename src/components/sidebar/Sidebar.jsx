@@ -24,9 +24,7 @@ const Sidebar = () => {
         />
         <div className="sidebar__profile-detail">
           <p>Linh Hồ</p>
-          <span className="sidebar__profile-detail-email">
-            linh2710@gmail.com
-          </span>
+          <span className="sidebar__profile-detail-email">linh</span>
         </div>
       </div>
 
