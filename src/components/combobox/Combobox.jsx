@@ -2,16 +2,19 @@ import { useState } from "react";
 import "./Combobox.css";
 function Combobox() {
   const [isActive, setIsActive] = useState(false);
-  const [categoryActive, setCategoryActive] = useState("Tất cả");
+  const [categoryActive, setCategoryActive] = useState("Tất cả ngành nghề");
   const options = [
     {
-      name: "Tuần này",
+      name: "Bác sĩ",
     },
     {
-      name: "Tháng này",
+      name: "Bán hàng",
     },
     {
-      name: "Năm này",
+      name: "Dược sĩ",
+    },
+    {
+      name: "Công nghệ thông tin",
     },
   ];
   return (
@@ -25,11 +28,11 @@ function Combobox() {
           <div
             className="dropdown-item"
             onClick={() => {
-              setCategoryActive("Tất cả");
+              setCategoryActive("Tất cả ngành nghề");
               setIsActive(false);
             }}
           >
-            Tất cả
+            Tất cả ngành nghề
           </div>
           {options.map((option) => (
             <div

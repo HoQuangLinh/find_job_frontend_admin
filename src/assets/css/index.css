@@ -231,3 +231,10 @@ table {
 .my-row {
   display: flex;
 }
+.btn {
+  font-size: 17px;
+  background-color: #03a9f4;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 10px;
+}

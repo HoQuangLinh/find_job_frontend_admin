@@ -1,0 +1,14 @@
+.employer-header-title {
+  margin-bottom: 15px;
+}
+.employer-header-content {
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.employer-list {
+  display: flex;
+}
+.employer-card {
+  padding: 10px;
+}
